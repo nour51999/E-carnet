@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+    body{font-family: 'Montserrat', sans-serif;}
+    .box{
+        padding:1%; margin-top:8%;border-radius: 5px;margin-left:30%;margin-right:30%;
+        font-size: 12px;
+        font-weight: normal;
+        border: none;
+        border-collapse: collapse;
+        white-space: nowrap;
+        background-color: #845EC2;box-shadow: 1px 1px 7px black;border-radius: 0px 50px 0px 50px;
+    }
+    .c {width: 900px; margin: 0 auto ;}
+    .f  tr th{width: 2px; margin-right:20px ;}
+    .m25{margin-right: 15px;}
+    .box h1{ color: white;  font-family: 'Marcellus',sans-serif; font-weight: 500;}
+    .h{font-family: 'Marcellus',sans-serif; font-weight: 500; } 
+    .box a { color: white ; text-decoration: none; font-size: 1.1em ;}
+    .card-body {display: flex; justify-content: center;align-items: center; flex-direction: column}
+    .flex {display: flex; align-items: center; justify-content: space-between;}
+    .form{display: block;}
+    .formr{display: block; margin-top: 30px;}
+    .form input:not(.btn),.form textarea,.form select{padding: 12px;border-radius: 10px; width:350px  }
+    .formr input:not(.btn),.form textarea,.form select{padding: 12px;border-radius: 10px; width:350px  }
+    .form input:not(.btn), .form textarea,.form select{margin-bottom: 20px;  border: 1px solid  rgb(235, 234, 234);  font-size: 1em;}
+    .formr input:not(.btn), .form textarea,.form select{margin-bottom: 20px;  border: 1px solid  rgb(235, 234, 234);  font-size: 1em;}
+
+    .form input[type=submit]{margin-top: 15px; border: none; display: block;}
+    .formr input[type=submit]{margin-top: 15px; border: none; display: block;}
+    .form input::placeholder{ font-size: 1.1em; padding: 10px;  }
+    .form label {font-size: 1.5em; margin-bottom: 15px; font-family:'Marcellus', 
+    sans-serif; margin-right: 10px;}
+    .form input[type=checkbox]{width: 20px; margin-bottom: 10px;}
+
+    .form input[type=radio]{width: 20px; margin-bottom: 10px;}
+    .flex-end{justify-content: flex-end; display: flex;}
+
+    textarea:focus, input:focus,  select:focus{outline: none;}
+    .btn{margin-bottom:10px; padding: 8px 15px;font-weight: 400;cursor: pointer;border-radius:30px; font-size: 16px !important; font-family: 'Marcellus',sans-serif;}
+    .btn2{background-color: #845EC2; color: white; margin-bottom:10px; padding: 8px 15px;font-weight: 400;cursor: pointer;border-radius:30px; font-size: 16px !important; font-family: 'Marcellus',sans-serif;}
+    .btn2:hover{color: white;}
+    .icon {width: 25px; height: 25px; object-fit: cover;}
+    .icon {width: 25px; height: 25px; object-fit: cover;}
+    .nav li a{display: flex; align-items: center; justify-content: start;}
+
+    .teach{width: 100%;  object-fit: cover;}
+
+
+    .form2{display: block;}
+  
+    .form2 input:not(.btn),.form2 textarea,.form2 select{padding: 12px;border-radius: 10px;  }
+   
+    .form2  input:not(.btn), .form2 textarea,.form2 select{margin-bottom: 20px; width: 100px;  border: 1px solid  rgb(235, 234, 234);  font-size: 1em;}
+ 
+    .form2  input[type=submit]{margin-top: 15px; border: none; display: block; outline: none;}
+
+    .form2  input::placeholder{ font-size: 1.1em; padding: 10px;  }
+    .form2 label {font-size: 1.1em; margin-bottom: 15px; font-family:'Marcellus', sans-serif; margin-right: 10px; font-weight: 500;}
+    .form2 input[type=checkbox]{width: 20px; margin-bottom: 10px;}
+
+    .form2 input[type=radio]{width: 20px; margin-bottom: 10px;}
+
+    body {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    table {
+        margin-top: 30PX;
+        border-collapse: collapse;
+        width: 100%;
+  
+       
+    }
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+.cent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+    table tr th {
+        font-size: 1em;
+        text-align: left;
+        text-transform: uppercase;
+
+    }
+    
+    table tr  {
+      margin: 10px !important;
+    }
+    
+    .col-10{width: 100%;}
+    .col-3{width: 30%;}
+    .select{width: unset !important;}
+    .jc-start{justify-content: start;}
+    .ai-center{align-items: center;}
+
+    .form3{display: block; padding-top: 40px;}
+  
+    .form3 input:not(.btn),.form3 textarea,.form3 select{padding: 12px;border-radius: 10px;  }
+   
+    .form3  input:not(.btn), .form3 textarea,.form3 select{margin-bottom: 20px; width: 500px;  border: 1px solid  rgb(235, 234, 234);  font-size: 1em;}
+ 
+    .form3  input[type=submit]{margin-top: 15px; border: none; display: block; outline: none;}
+
+    .form3  input::placeholder{ font-size: 1.1em; padding: 10px;  }
+    .form3 label {font-size: 1.4em; margin-bottom: 15px; font-family:'Marcellus', sans-serif; margin-right: 10px; font-weight: 500;}
+    .form3 input[type=checkbox]{width: 20px; margin-bottom: 10px;}
+
+    .form3 input[type=radio]{width: 20px; margin-bottom: 10px;}
+
+    .cart{ background-color: #d9c7ee; border: 1px solid #d9c7ee ; padding: 15px; border-radius: 20px;}
+    .jour{ display: none;}
+    .seance{display: none;}
+
+    #tblemploi {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      #tblemploi td, #tblemploi th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      
+      #tblemploi tr:nth-child(even){background-color: #f2f2f2;}
+      
+      #tblemploi tr:hover {background-color: #ddd;}
+      
+      #tblemploi th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #b909ee;
+        color: white;
+      }
+      #tblemploi td{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color:  #cb7de2;
+        color: white;
+      }
